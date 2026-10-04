@@ -1,0 +1,95 @@
+{
+  "source": "Chép tay từ output notebook 06_engine_v2_rerun.ipynb (làm tròn 4 chữ số). File gốc reports/results_engine_v2.json nằm trong runtime Colab của người chạy.",
+  "engine": "v2",
+  "cost_rate": 0.0023,
+  "universe_size": 28,
+  "dropped": [
+    "TCX",
+    "VPL"
+  ],
+  "data": [
+    "2022-01-04",
+    "2026-10-02"
+  ],
+  "window": [
+    "2024-01-12",
+    "2026-09-25"
+  ],
+  "n_days": 670,
+  "sharpe_se": 0.6141,
+  "strategies": {
+    "IC-Weighted Composite": {
+      "total_return": 0.8031,
+      "ann_return": 0.2482,
+      "ann_vol": 0.2143,
+      "sharpe": 1.1583,
+      "max_dd": -0.2336,
+      "calmar": 1.0625,
+      "gross_sharpe": 1.4061,
+      "rank_ic": 0.0442,
+      "t_ic_adj": 1.8717,
+      "t_excess_vs_1n": 0.1124,
+      "cost_paid": 0.106,
+      "n_buy": 290,
+      "avg_hold_days": 41.1993,
+      "win_rate": 0.4895,
+      "sharpe_legacy_engine": 1.9411
+    },
+    "Single Factor (Mom_6_1)": {
+      "total_return": 1.0656,
+      "ann_return": 0.3137,
+      "ann_vol": 0.2106,
+      "sharpe": 1.4898,
+      "max_dd": -0.1887,
+      "calmar": 1.6621,
+      "gross_sharpe": 1.7083,
+      "rank_ic": 0.0176,
+      "t_ic_adj": 0.7221,
+      "t_excess_vs_1n": 0.9703,
+      "cost_paid": 0.0862,
+      "n_buy": 289,
+      "avg_hold_days": 45.8481,
+      "win_rate": 0.523,
+      "sharpe_legacy_engine": 2.18
+    },
+    "XGBoost walk-forward": {
+      "total_return": 1.1923,
+      "ann_return": 0.3434,
+      "ann_vol": 0.2272,
+      "sharpe": 1.5118,
+      "max_dd": -0.2065,
+      "calmar": 1.6633,
+      "gross_sharpe": 2.1819,
+      "rank_ic": 0.0223,
+      "t_ic_adj": 1.1693,
+      "t_excess_vs_1n": 1.1301,
+      "cost_paid": 0.2809,
+      "n_buy": 442,
+      "avg_hold_days": 14.9909,
+      "win_rate": 0.4909,
+      "sharpe_legacy_engine": 2.0615
+    },
+    "1/N Equal-Weight": {
+      "total_return": 0.8003,
+      "ann_return": 0.2475,
+      "ann_vol": 0.1839,
+      "sharpe": 1.3458,
+      "max_dd": -0.1675,
+      "calmar": 1.4773
+    }
+  },
+  "single_factor_oof_ic_to_2026_10": {
+    "Momentum_12_1": 0.0335,
+    "TS_Momentum": 0.0296,
+    "Momentum_6_1": 0.0241,
+    "Volume_Ratio": 0.0104
+  },
+  "ic_weights_to_2026_10": {
+    "Momentum_12_1": 0.344,
+    "TS_Momentum": 0.303,
+    "Momentum_6_1": 0.247,
+    "Volume_Ratio": 0.107
+  },
+  "default_signal": "single",
+  "decision_note": "Không mô hình nào vượt 1/N có ý nghĩa thống kê (|t|<2). Mặc định = Single Factor theo tiêu chí đơn giản/drawdown/cost, không theo Sharpe."
+}
