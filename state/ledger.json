@@ -1,0 +1,57 @@
+{
+  "asof": "2026-10-05",
+  "signal": "single",
+  "positions": {
+    "ACB": {
+      "entry_date": "2026-06-30",
+      "entry_price": 22.65,
+      "size": 1.0
+    },
+    "SAB": {
+      "entry_date": "2026-09-04",
+      "entry_price": 45.35,
+      "size": 1.0
+    },
+    "HDB": {
+      "entry_date": "2026-09-11",
+      "entry_price": 26.8,
+      "size": 1.0
+    },
+    "TCB": {
+      "entry_date": "2026-09-18",
+      "entry_price": 31.6,
+      "size": 1.0
+    },
+    "VHM": {
+      "entry_date": "2026-09-25",
+      "entry_price": 69.1,
+      "size": 1.0
+    },
+    "VIC": {
+      "entry_date": "2026-10-02",
+      "entry_price": 224.0,
+      "size": 1.0
+    },
+    "SSB": {
+      "entry_date": "2026-10-02",
+      "entry_price": 17.05,
+      "size": 1.0
+    },
+    "LPB": {
+      "entry_date": "2026-10-02",
+      "entry_price": 40.2,
+      "size": 1.0
+    },
+    "STB": {
+      "entry_date": "2026-10-02",
+      "entry_price": 68.4,
+      "size": 1.0
+    },
+    "GAS": {
+      "entry_date": "2026-10-02",
+      "entry_price": 78.8,
+      "size": 1.0
+    }
+  },
+  "generated_at": "23:26 05/10/2026"
+}
