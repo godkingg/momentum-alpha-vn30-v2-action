@@ -4,9 +4,9 @@ name: Daily report (Discord)
 # Lịch được đặt SỚM ~10 phút so với giờ hẹn để bù độ trễ thường gặp của GitHub (có thể trễ 5–30 phút lúc cao điểm);
 # script tự chờ tới đúng 14:00 / 15:00 giờ VN. Nếu GitHub trễ quá giờ hẹn thì chạy ngay khi được khởi động.
 on:
-  schedule:
-    - cron: "50 6 * * 1-5"    # 13:50 VN (thứ 2–6) → báo cáo "lệnh dự kiến" 14:00
-    - cron: "50 7 * * 1-5"    # 14:50 VN (thứ 2–6) → báo cáo "cuối phiên" 15:00
+  # schedule:
+  #   - cron: "50 6 * * 1-5"    # 13:50 VN (thứ 2–6) → báo cáo "lệnh dự kiến" 14:00
+  #   - cron: "50 7 * * 1-5"    # 14:50 VN (thứ 2–6) → báo cáo "cuối phiên" 15:00
   workflow_dispatch:
     inputs:
       mode:
