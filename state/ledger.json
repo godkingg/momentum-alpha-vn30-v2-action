@@ -1,12 +1,7 @@
 {
-  "asof": "2026-10-05",
+  "asof": "2026-10-06",
   "signal": "single",
   "positions": {
-    "ACB": {
-      "entry_date": "2026-06-30",
-      "entry_price": 22.65,
-      "size": 1.0
-    },
     "SAB": {
       "entry_date": "2026-09-04",
       "entry_price": 45.35,
@@ -53,5 +48,5 @@
       "size": 1.0
     }
   },
-  "generated_at": "23:26 05/10/2026"
+  "generated_at": "19:43 06/10/2026"
 }
