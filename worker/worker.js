@@ -196,6 +196,27 @@ export async function handle(request, env, ctx, fetchFn = fetch, nowMs = Date.no
   return json({ type: 5 });                                                          // DEFERRED_CHANNEL_MESSAGE_WITH_SOURCE
 }
 
+// ----------------------------------------------------------------------------- hẹn giờ báo cáo định kỳ (Cron Triggers)
+/** Kích hoạt daily_report.yml với mode preview/final. Thử lại tối đa 3 lần khi lỗi mạng hoặc GitHub 5xx. */
+export async function dispatchDaily(env, mode, fetchFn = fetch) {
+  const daily = { ...env, GH_WORKFLOW: env.GH_DAILY_WORKFLOW || "daily_report.yml" };
+  let res = { ok: false, status: 0 };
+  for (let attempt = 1; attempt <= 3; attempt++) {
+    try { res = await dispatchWorkflow(daily, { mode }, fetchFn); } catch { res = { ok: false, status: 0 }; }
+    if (res.ok || (res.status >= 400 && res.status < 500)) break;                    // lỗi 4xx (token/quyền/tên file) thì thử lại cũng vô ích
+    if (attempt < 3) await new Promise((r) => setTimeout(r, 3000));
+  }
+  if (!res.ok) console.error(`daily dispatch (${mode}) thất bại, status=${res.status}`);   // không ghi token
+  return res;
+}
+
 export default {
   fetch: (request, env, ctx) => handle(request, env, ctx),
+
+  // Cron Trigger: 06:55 UTC (13:55 VN) → preview; 07:55 UTC (14:55 VN) → final
+  scheduled: (event, env, ctx) => {
+    const hourUTC = new Date(event.scheduledTime).getUTCHours();
+    const mode = hourUTC === 6 ? "preview" : "final";
+    ctx.waitUntil(dispatchDaily(env, mode));
+  },
 };
