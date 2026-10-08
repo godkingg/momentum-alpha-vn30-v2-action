@@ -1,5 +1,5 @@
 {
-  "asof": "2026-10-07",
+  "asof": "2026-10-08",
   "signal": "single",
   "positions": {
     "SAB": {
@@ -48,5 +48,5 @@
       "size": 1.0
     }
   },
-  "generated_at": "15:00 07/10/2026"
+  "generated_at": "15:00 08/10/2026"
 }
