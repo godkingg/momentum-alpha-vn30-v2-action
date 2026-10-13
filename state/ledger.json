@@ -1,5 +1,5 @@
 {
-  "asof": "2026-10-12",
+  "asof": "2026-10-13",
   "signal": "single",
   "positions": {
     "SAB": {
@@ -32,11 +32,6 @@
       "entry_price": 17.05,
       "size": 1.0
     },
-    "LPB": {
-      "entry_date": "2026-10-02",
-      "entry_price": 40.2,
-      "size": 1.0
-    },
     "STB": {
       "entry_date": "2026-10-02",
       "entry_price": 68.4,
@@ -53,5 +48,5 @@
       "size": 1.0
     }
   },
-  "generated_at": "15:00 12/10/2026"
+  "generated_at": "15:00 13/10/2026"
 }
