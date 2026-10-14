@@ -1,5 +1,5 @@
 {
-  "asof": "2026-10-13",
+  "asof": "2026-10-14",
   "signal": "single",
   "positions": {
     "SAB": {
@@ -17,19 +17,9 @@
       "entry_price": 31.6,
       "size": 1.0
     },
-    "VHM": {
-      "entry_date": "2026-09-25",
-      "entry_price": 69.1,
-      "size": 1.0
-    },
     "VIC": {
       "entry_date": "2026-10-02",
       "entry_price": 224.0,
-      "size": 1.0
-    },
-    "SSB": {
-      "entry_date": "2026-10-02",
-      "entry_price": 17.05,
       "size": 1.0
     },
     "STB": {
@@ -48,5 +38,5 @@
       "size": 1.0
     }
   },
-  "generated_at": "15:00 13/10/2026"
+  "generated_at": "15:00 14/10/2026"
 }
