@@ -1,5 +1,5 @@
 {
-  "asof": "2026-10-14",
+  "asof": "2026-10-15",
   "signal": "single",
   "positions": {
     "SAB": {
@@ -22,11 +22,6 @@
       "entry_price": 224.0,
       "size": 1.0
     },
-    "STB": {
-      "entry_date": "2026-10-02",
-      "entry_price": 68.4,
-      "size": 1.0
-    },
     "GAS": {
       "entry_date": "2026-10-02",
       "entry_price": 78.8,
@@ -38,5 +33,5 @@
       "size": 1.0
     }
   },
-  "generated_at": "15:00 14/10/2026"
+  "generated_at": "15:00 15/10/2026"
 }
