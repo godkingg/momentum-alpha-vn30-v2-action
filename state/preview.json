@@ -1,5 +1,54 @@
 {
-  "asof": "2026-10-15",
-  "orders": [],
-  "generated_at": "14:00 15/10/2026"
+  "asof": "2026-10-16",
+  "orders": [
+    {
+      "side": "BUY",
+      "code": "BUY",
+      "label": "Vào lệnh theo rank",
+      "symbol": "BSR",
+      "price": 28.55,
+      "size_text": "100%",
+      "pnl": null,
+      "hold_days": null,
+      "reason": "Entry OK",
+      "rank": 0.929
+    },
+    {
+      "side": "BUY",
+      "code": "BUY",
+      "label": "Vào lệnh theo rank",
+      "symbol": "SSB",
+      "price": 16.1,
+      "size_text": "100%",
+      "pnl": null,
+      "hold_days": null,
+      "reason": "Entry OK",
+      "rank": 1.0
+    },
+    {
+      "side": "BUY",
+      "code": "BUY",
+      "label": "Vào lệnh theo rank",
+      "symbol": "STB",
+      "price": 63.5,
+      "size_text": "100%",
+      "pnl": null,
+      "hold_days": null,
+      "reason": "Entry OK",
+      "rank": 0.893
+    },
+    {
+      "side": "BUY",
+      "code": "BUY",
+      "label": "Vào lệnh theo rank",
+      "symbol": "VHM",
+      "price": 60.0,
+      "size_text": "100%",
+      "pnl": null,
+      "hold_days": null,
+      "reason": "Entry OK",
+      "rank": 0.786
+    }
+  ],
+  "generated_at": "14:00 16/10/2026"
 }
