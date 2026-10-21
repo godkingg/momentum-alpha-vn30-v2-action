@@ -1,5 +1,5 @@
 {
-  "asof": "2026-10-20",
+  "asof": "2026-10-21",
   "signal": "single",
   "positions": {
     "SAB": {
@@ -46,12 +46,7 @@
       "entry_date": "2026-10-16",
       "entry_price": 62.8,
       "size": 1.0
-    },
-    "VHM": {
-      "entry_date": "2026-10-16",
-      "entry_price": 61.0,
-      "size": 1.0
     }
   },
-  "generated_at": "15:00 20/10/2026"
+  "generated_at": "15:00 21/10/2026"
 }
