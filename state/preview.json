@@ -1,5 +1,18 @@
 {
-  "asof": "2026-10-22",
-  "orders": [],
-  "generated_at": "14:00 22/10/2026"
+  "asof": "2026-10-23",
+  "orders": [
+    {
+      "side": "BUY",
+      "code": "BUY",
+      "label": "Vào lệnh theo rank",
+      "symbol": "LPB",
+      "price": 40.35,
+      "size_text": "100%",
+      "pnl": null,
+      "hold_days": null,
+      "reason": "Entry OK",
+      "rank": 0.75
+    }
+  ],
+  "generated_at": "14:00 23/10/2026"
 }
