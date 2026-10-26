@@ -1,18 +1,18 @@
 {
-  "asof": "2026-10-23",
+  "asof": "2026-10-26",
   "orders": [
     {
-      "side": "BUY",
-      "code": "BUY",
-      "label": "Vào lệnh theo rank",
-      "symbol": "LPB",
-      "price": 40.35,
-      "size_text": "100%",
-      "pnl": null,
-      "hold_days": null,
-      "reason": "Entry OK",
-      "rank": 0.75
+      "side": "SELL",
+      "code": "MOM_FLIP",
+      "label": "Momentum đảo chiều",
+      "symbol": "SAB",
+      "price": 43.05,
+      "size_text": "toàn bộ",
+      "pnl": -0.0507,
+      "hold_days": 52,
+      "reason": "Mom-6 = -2.7% < 0 (momentum đảo chiều)",
+      "rank": 0.5
     }
   ],
-  "generated_at": "14:00 23/10/2026"
+  "generated_at": "14:00 26/10/2026"
 }
