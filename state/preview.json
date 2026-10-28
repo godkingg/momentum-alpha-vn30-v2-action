@@ -1,18 +1,5 @@
 {
-  "asof": "2026-10-27",
-  "orders": [
-    {
-      "side": "SELL",
-      "code": "MOM_FLIP",
-      "label": "Momentum đảo chiều",
-      "symbol": "TCB",
-      "price": 33.8,
-      "size_text": "toàn bộ",
-      "pnl": 0.0696,
-      "hold_days": 39,
-      "reason": "Mom-6 = -2.1% < 0 (momentum đảo chiều)",
-      "rank": 0.536
-    }
-  ],
-  "generated_at": "14:00 27/10/2026"
+  "asof": "2026-10-28",
+  "orders": [],
+  "generated_at": "14:00 28/10/2026"
 }
