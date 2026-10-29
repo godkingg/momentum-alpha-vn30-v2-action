@@ -1,5 +1,18 @@
 {
-  "asof": "2026-10-28",
-  "orders": [],
-  "generated_at": "14:00 28/10/2026"
+  "asof": "2026-10-29",
+  "orders": [
+    {
+      "side": "SELL",
+      "code": "MOM_FLIP",
+      "label": "Momentum đảo chiều",
+      "symbol": "LPB",
+      "price": 37.45,
+      "size_text": "toàn bộ",
+      "pnl": -0.073,
+      "hold_days": 6,
+      "reason": "Mom-6 = -1.6% < 0 (momentum đảo chiều)",
+      "rank": 0.607
+    }
+  ],
+  "generated_at": "14:00 29/10/2026"
 }
