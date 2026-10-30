@@ -1,5 +1,5 @@
 {
-  "asof": "2026-10-29",
+  "asof": "2026-10-30",
   "signal": "single",
   "positions": {
     "HDB": {
@@ -36,7 +36,22 @@
       "entry_date": "2026-10-16",
       "entry_price": 62.8,
       "size": 1.0
+    },
+    "VPB": {
+      "entry_date": "2026-10-30",
+      "entry_price": 22.95,
+      "size": 1.0
+    },
+    "MCH": {
+      "entry_date": "2026-10-30",
+      "entry_price": 135.0,
+      "size": 1.0
+    },
+    "TCB": {
+      "entry_date": "2026-10-30",
+      "entry_price": 21.6,
+      "size": 1.0
     }
   },
-  "generated_at": "15:00 29/10/2026"
+  "generated_at": "15:00 30/10/2026"
 }
