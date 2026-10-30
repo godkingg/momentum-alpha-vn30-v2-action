@@ -1,18 +1,42 @@
 {
-  "asof": "2026-10-29",
+  "asof": "2026-10-30",
   "orders": [
     {
-      "side": "SELL",
-      "code": "MOM_FLIP",
-      "label": "Momentum đảo chiều",
-      "symbol": "LPB",
-      "price": 37.45,
-      "size_text": "toàn bộ",
-      "pnl": -0.073,
-      "hold_days": 6,
-      "reason": "Mom-6 = -1.6% < 0 (momentum đảo chiều)",
-      "rank": 0.607
+      "side": "BUY",
+      "code": "BUY",
+      "label": "Vào lệnh theo rank",
+      "symbol": "MCH",
+      "price": 134.0,
+      "size_text": "100%",
+      "pnl": null,
+      "hold_days": null,
+      "reason": "Entry OK",
+      "rank": 0.714
+    },
+    {
+      "side": "BUY",
+      "code": "BUY",
+      "label": "Vào lệnh theo rank",
+      "symbol": "TCB",
+      "price": 21.7,
+      "size_text": "100%",
+      "pnl": null,
+      "hold_days": null,
+      "reason": "Entry OK",
+      "rank": 0.679
+    },
+    {
+      "side": "BUY",
+      "code": "BUY",
+      "label": "Vào lệnh theo rank",
+      "symbol": "VPB",
+      "price": 22.8,
+      "size_text": "100%",
+      "pnl": null,
+      "hold_days": null,
+      "reason": "Entry OK",
+      "rank": 0.929
     }
   ],
-  "generated_at": "14:00 29/10/2026"
+  "generated_at": "14:00 30/10/2026"
 }
