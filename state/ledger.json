@@ -1,5 +1,5 @@
 {
-  "asof": "2026-11-04",
+  "asof": "2026-11-05",
   "signal": "single",
   "positions": {
     "HDB": {
@@ -43,5 +43,5 @@
       "size": 1.0
     }
   },
-  "generated_at": "15:00 04/11/2026"
+  "generated_at": "15:00 05/11/2026"
 }
