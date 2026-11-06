@@ -1,5 +1,5 @@
 {
-  "asof": "2026-11-05",
+  "asof": "2026-11-06",
   "signal": "single",
   "positions": {
     "HDB": {
@@ -22,11 +22,6 @@
       "entry_price": 20.15,
       "size": 1.0
     },
-    "SSB": {
-      "entry_date": "2026-10-16",
-      "entry_price": 16.15,
-      "size": 1.0
-    },
     "BSR": {
       "entry_date": "2026-10-16",
       "entry_price": 28.35,
@@ -41,7 +36,12 @@
       "entry_date": "2026-10-30",
       "entry_price": 135.0,
       "size": 1.0
+    },
+    "SSB": {
+      "entry_date": "2026-11-06",
+      "entry_price": 14.8,
+      "size": 1.0
     }
   },
-  "generated_at": "15:00 05/11/2026"
+  "generated_at": "15:00 06/11/2026"
 }
