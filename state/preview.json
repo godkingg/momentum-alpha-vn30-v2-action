@@ -1,5 +1,18 @@
 {
-  "asof": "2026-11-06",
-  "orders": [],
-  "generated_at": "14:00 06/11/2026"
+  "asof": "2026-11-09",
+  "orders": [
+    {
+      "side": "SELL",
+      "code": "HARD_STOP",
+      "label": "Cắt lỗ cứng",
+      "symbol": "BSR",
+      "price": 25.95,
+      "size_text": "toàn bộ",
+      "pnl": -0.0847,
+      "hold_days": 24,
+      "reason": "Giảm -8.5% từ giá mua (ngưỡng -8%)",
+      "rank": 0.857
+    }
+  ],
+  "generated_at": "14:00 09/11/2026"
 }
